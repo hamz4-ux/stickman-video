@@ -1,0 +1,27 @@
+1
+00:00:03,200 --> 00:00:08,200
+In 1939, the deadliest conflict in human history began when Germany invaded Poland.
+
+2
+00:00:09,050 --> 00:00:15,204
+Within months, Europe was split between the Axis powers and the Allied nations fighting for survival.
+
+3
+00:00:16,054 --> 00:00:22,592
+By 1941, the war went global as the Soviet Union and the United States entered the fight.
+
+4
+00:00:23,442 --> 00:00:24,981
+Over six brutal years,
+
+5
+00:00:25,231 --> 00:00:30,231
+more than 70 million people lost their lives across land, sea, and air.
+
+6
+00:00:31,081 --> 00:00:33,388
+In 1945, the Allies finally prevailed,
+
+7
+00:00:33,638 --> 00:00:39,023
+reshaping the modern world and creating the United Nations to prevent another global war.

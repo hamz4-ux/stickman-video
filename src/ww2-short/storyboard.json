@@ -1,0 +1,138 @@
+{
+  "fps": 30,
+  "durationInFrames": 1231,
+  "scenes": [
+    {
+      "id": "S01",
+      "type": "cold_open",
+      "fromFrame": 96,
+      "durationFrames": 150,
+      "narration": "In 1939, the deadliest conflict in human history began when Germany invaded Poland.",
+      "musicStyle": "intro",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "hook": "IN 1939, THE DEADLIEST CONFLICT IN HUMAN H",
+        "sub": "In 1939, the deadliest conflict in human history began when Germany invaded P..."
+      }
+    },
+    {
+      "id": "S02",
+      "type": "split_compare",
+      "fromFrame": 272,
+      "durationFrames": 184,
+      "narration": "Within months, Europe was split between the Axis powers and the Allied nations fighting for survival.",
+      "musicStyle": "play",
+      "characters": [
+        "hero",
+        "expert"
+      ],
+      "params": {
+        "title": "KEY POINT 1",
+        "left": {
+          "character": "hero",
+          "label": "BEFORE",
+          "pose": "shrug"
+        },
+        "right": {
+          "character": "expert",
+          "label": "AFTER",
+          "pose": "pointR"
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "type": "data_beat",
+      "fromFrame": 482,
+      "durationFrames": 196,
+      "narration": "By 1941, the war went global as the Soviet Union and the United States entered the fight.",
+      "musicStyle": "play",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "value": 100,
+        "suffix": "%",
+        "caption": "By 1941, the war went global as the Soviet Union and the United States entered t"
+      }
+    },
+    {
+      "id": "S04",
+      "type": "split_compare",
+      "fromFrame": 703,
+      "durationFrames": 46,
+      "narration": "Over six brutal years,",
+      "musicStyle": "play",
+      "characters": [
+        "hero",
+        "expert"
+      ],
+      "params": {
+        "title": "KEY POINT 3",
+        "left": {
+          "character": "hero",
+          "label": "BEFORE",
+          "pose": "shrug"
+        },
+        "right": {
+          "character": "expert",
+          "label": "AFTER",
+          "pose": "pointR"
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "type": "data_beat",
+      "fromFrame": 757,
+      "durationFrames": 150,
+      "narration": "more than 70 million people lost their lives across land, sea, and air.",
+      "musicStyle": "play",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "value": 100,
+        "suffix": "%",
+        "caption": "more than 70 million people lost their lives across land, sea, and air."
+      }
+    },
+    {
+      "id": "S06",
+      "type": "data_beat",
+      "fromFrame": 932,
+      "durationFrames": 70,
+      "narration": "In 1945, the Allies finally prevailed,",
+      "musicStyle": "play",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "value": 100,
+        "suffix": "%",
+        "caption": "In 1945, the Allies finally prevailed,"
+      }
+    },
+    {
+      "id": "S07",
+      "type": "ending",
+      "fromFrame": 1009,
+      "durationFrames": 222,
+      "narration": "reshaping the modern world and creating the United Nations to prevent another global war.",
+      "musicStyle": "finale",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "takeaway": "RESHAPING THE MODERN WORLD AND CREATING TH"
+      }
+    }
+  ]
+}
