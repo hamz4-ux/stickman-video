@@ -6,7 +6,7 @@ import { CARD, SfxCue } from "./sfx";
 import { TIMELINE } from "./timeline";
 import { S01Example, S01_SFX } from "./S01Example";
 
-// Folder in public/ with music.mp3, sfx/*.wav and (optionally) the voiceover.
+// Folder in public/ with music.wav, sfx/*.wav and (optionally) the voiceover.
 const ASSETS = "__SLUG__";
 
 export type SceneProps = { from: number; dur: number };
@@ -57,7 +57,7 @@ export const Video: React.FC<VideoProps> = ({ music, sfx, voice, captions }) => 
   return (
     <AbsoluteFill style={{ background: COL.paper }}>
       <Audio
-        src={staticFile(`${ASSETS}/music.mp3`)}
+        src={staticFile(`${ASSETS}/music.wav`)}
         volume={(f) =>
           music *
           (voice ? duck(f) : 1) *

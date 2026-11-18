@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { COL, FONT, Paper, Slam, ease, shakeAt } from "./fx";
+import { useLayout } from "./layout";
 
 // stage: paper + SVG layer (characters) + HTML layer (text), sharing one camera shake
 export const Stage: React.FC<{
@@ -270,9 +271,10 @@ export const Captions: React.FC<{
   cues: { startFrame: number; endFrame: number; text: string }[];
   bottom?: number;
   size?: number;
-}> = ({ cues, bottom = 60, size = 40 }) => {
+}> = ({ cues, bottom, size = 40 }) => {
   const f = useCurrentFrame();
-  const { width } = useVideoConfig();
+  const layout = useLayout();
+  const marginBottom = bottom ?? layout.safe.bottom;
   const c = cues.find((q) => f >= q.startFrame && f < q.endFrame);
   if (!c) return null;
   const o = interpolate(f, [c.startFrame, c.startFrame + 4, c.endFrame - 4, c.endFrame], [0, 1, 1, 0], {
@@ -283,8 +285,8 @@ export const Captions: React.FC<{
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", pointerEvents: "none" }}>
       <div
         style={{
-          marginBottom: bottom,
-          maxWidth: width * 0.8,
+          marginBottom,
+          maxWidth: layout.safe.width,
           textAlign: "center",
           background: "rgba(20,20,20,0.82)",
           color: "#fff",

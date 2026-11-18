@@ -1,0 +1,59 @@
+{
+ "fps": 30,
+ "durationInFrames": 911,
+ "seconds": 30.37,
+ "cues": [
+  {
+   "i": 0,
+   "start": 3.2,
+   "end": 8.2,
+   "startFrame": 96,
+   "endFrame": 246,
+   "words": 13,
+   "text": "Most people think saving money is just about putting cash in a jar."
+  },
+  {
+   "i": 1,
+   "start": 9.05,
+   "end": 14.435,
+   "startFrame": 272,
+   "endFrame": 433,
+   "words": 14,
+   "text": "But when your money earns interest, that interest starts earning its own interest too."
+  },
+  {
+   "i": 2,
+   "start": 15.285,
+   "end": 16.485,
+   "startFrame": 459,
+   "endFrame": 495,
+   "words": 3,
+   "text": "After 30 years,"
+  },
+  {
+   "i": 3,
+   "start": 16.735,
+   "end": 22.504,
+   "startFrame": 502,
+   "endFrame": 675,
+   "words": 15,
+   "text": "100 dollars can grow into more than 1000 dollars without adding a single extra coin."
+  },
+  {
+   "i": 4,
+   "start": 23.354,
+   "end": 28.354,
+   "startFrame": 701,
+   "endFrame": 851,
+   "words": 13,
+   "text": "Start early, stay consistent, and let time do the heavy lifting for you."
+  }
+ ],
+ "chapters": [
+  {
+   "title": "Why Compound Interest Works",
+   "startFrame": 30,
+   "endFrame": 96
+  }
+ ]
+}

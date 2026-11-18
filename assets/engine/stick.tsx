@@ -1,5 +1,6 @@
 import React from "react";
 import { Easing, interpolate } from "remotion";
+import { useLayout } from "./layout";
 
 // Stick-figure animation engine (snappy, physical, cartoon-action style).
 // Angles in degrees. Convention: dir(a) = (sin a, cos a) in screen coordinates,
@@ -369,7 +370,8 @@ export const Actor: React.FC<{
   children?: (j: Joints) => React.ReactNode;
   behind?: (j: Joints) => React.ReactNode;
 }> = ({ f, keys, color, base, scale = 1, facing = 1, accessory, face = "eyes", label, mod, trails = true, opacity = 1, draw, children, behind }) => {
-  const b = { ...STAND, ...base };
+  const layout = useLayout();
+  const b = { ...STAND, x: layout.cx, y: layout.groundY(scale), ...base };
   const get = (t: number) => {
     const p = poseAt(t, keys, b);
     return mod ? mod(t, p) : p;

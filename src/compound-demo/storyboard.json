@@ -1,0 +1,96 @@
+{
+  "fps": 30,
+  "durationInFrames": 911,
+  "scenes": [
+    {
+      "id": "S01",
+      "type": "cold_open",
+      "fromFrame": 96,
+      "durationFrames": 150,
+      "narration": "Most people think saving money is just about putting cash in a jar.",
+      "musicStyle": "intro",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "hook": "MOST PEOPLE THINK SAVING MONEY IS JUST ABO",
+        "sub": "Most people think saving money is just about putting cash in a jar."
+      }
+    },
+    {
+      "id": "S02",
+      "type": "split_compare",
+      "fromFrame": 272,
+      "durationFrames": 161,
+      "narration": "But when your money earns interest, that interest starts earning its own interest too.",
+      "musicStyle": "play",
+      "characters": [
+        "hero",
+        "expert"
+      ],
+      "params": {
+        "title": "KEY POINT 1",
+        "left": {
+          "character": "hero",
+          "label": "BEFORE",
+          "pose": "shrug"
+        },
+        "right": {
+          "character": "expert",
+          "label": "AFTER",
+          "pose": "pointR"
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "type": "data_beat",
+      "fromFrame": 459,
+      "durationFrames": 36,
+      "narration": "After 30 years,",
+      "musicStyle": "play",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "value": 100,
+        "suffix": "%",
+        "caption": "After 30 years,"
+      }
+    },
+    {
+      "id": "S04",
+      "type": "data_beat",
+      "fromFrame": 502,
+      "durationFrames": 173,
+      "narration": "100 dollars can grow into more than 1000 dollars without adding a single extra coin.",
+      "musicStyle": "play",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "value": 100,
+        "suffix": "%",
+        "caption": "100 dollars can grow into more than 1000 dollars without adding a single extra c"
+      }
+    },
+    {
+      "id": "S05",
+      "type": "ending",
+      "fromFrame": 701,
+      "durationFrames": 210,
+      "narration": "Start early, stay consistent, and let time do the heavy lifting for you.",
+      "musicStyle": "finale",
+      "characters": [
+        "hero"
+      ],
+      "params": {
+        "hero": "hero",
+        "takeaway": "START EARLY, STAY CONSISTENT, AND LET TIME"
+      }
+    }
+  ]
+}
